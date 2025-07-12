@@ -1,6 +1,8 @@
 ## Hotel
 - https://www.youtube.com/watch?v=CW1hobsjX_g
+- obsidian://open?vault=Obsidian%20Vault&file=Work%20Notes%2FSemantic%20Kernel%201%2FRoadmaps
 ## Airport
+
 - 出入境是在同一邊
 	- 刷護照即可
 - ICA 電子入境 App
