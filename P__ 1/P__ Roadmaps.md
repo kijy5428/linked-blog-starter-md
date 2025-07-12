@@ -4,6 +4,8 @@
 - [ ] chat playground investigation
 - [ ] [Semantic Kernel Roadmap](../../Working/Semantic%20Kernel/Roadmaps.md)
 - [ ] mermaid
+	- [ ] Flowchart
+- [ ] Systeme architecture 
 - [ ] docker
 - [ ] docker compose
 - [ ] kubernetes
