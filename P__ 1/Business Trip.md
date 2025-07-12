@@ -3,8 +3,8 @@
 - 
 ## Food
 ## KK day
- -   [ ] Sim card
- - 
+ -  [ ] Sim card
+ -  [ ] Grab
 ## Iternery
 
 -  [ ] KK day
