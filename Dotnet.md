@@ -21,7 +21,7 @@ If you're unsure which method you should choose after reviewing the lists in the
 
 ### Users and Developers
 
-- [.NET Installer](https://learn.microsoft.com/en-us/dotnet/core/install/windows?WT.mc_id=dotnet-35129-website#net-installer)
+- [.NET Installer(Preferred by tested with my laptop)](https://learn.microsoft.com/en-us/dotnet/core/install/windows?WT.mc_id=dotnet-35129-website#net-installer)
     
     Install .NET with a Windows Installer package, which is an executable that you run. This method can install the SDK and Runtime. Installs are performed system-wide.
     
