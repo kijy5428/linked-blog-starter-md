@@ -1,0 +1,1 @@
+- https://learn.microsoft.com/en-us/training/modules/polyglot-notebooks/7-value-sharing
