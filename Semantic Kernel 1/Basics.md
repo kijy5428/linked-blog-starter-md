@@ -1,6 +1,6 @@
 
 ## System structure
-![](../../Pasted%20image%2020250712110355.png)
+![](attachments/Pasted%20image%2020250712110355.png)
 
 
 ### 🧠 Components in the Ecosystem
