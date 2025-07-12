@@ -1,1 +1,1 @@
-https://learn.microsoft.com/en-us/training/modules/polyglot-notebooks/
+- https://learn.microsoft.com/en-us/training/modules/polyglot-notebooks/ (Good resources)
