@@ -10,5 +10,5 @@
 - [ ] docker
 - [ ] docker compose
 - [ ] kubernetes
-- [ ] polyglot
+- [x] polyglot
 - [ ] [Excalidraw](https://excalidraw.com/)
