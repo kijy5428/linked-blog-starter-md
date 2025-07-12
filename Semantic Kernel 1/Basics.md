@@ -2,7 +2,7 @@
 ## System structure
 ![](attachments/Pasted%20image%2020250712110355.png)
 
-
+![](attachments/Pasted%20image%2020250712183816.png)
 ### 🧠 Components in the Ecosystem
 
 |Component|Role & Function|
