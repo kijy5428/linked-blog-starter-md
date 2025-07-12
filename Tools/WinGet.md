@@ -2,3 +2,4 @@
 
 [Use WinGet to install and manage applications | Microsoft Learn](https://learn.microsoft.com/en-us/windows/package-manager/winget/)
 
+[Releases · microsoft/winget-cli](https://github.com/microsoft/winget-cli/releases)
