@@ -2,5 +2,4 @@
 - [ ] angular markdown
 - [ ] read through M_'s repo
 - [ ] chat playground investigation
-- [ ] [Roadmaps](../../Working/Semantic%20Kernel/Roadmaps.md)
-- [ ] [Roadmaps](../../Working/Semantic%20Kernel/Roadmaps.md)
+- [ ] [Semantic Kernel Roadmap](../../Working/Semantic%20Kernel/Roadmaps.md)
