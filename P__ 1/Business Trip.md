@@ -8,6 +8,9 @@
 		- ![](attachments/Pasted%20image%2020250712174012.png)
 		- ![](attachments/Pasted%20image%2020250712173650.png)
 - 
+## Apps
+![](attachments/Pasted%20image%2020250712175329.png)
+
 ## Travel
 - Singapore Zoo
 	- Bird Paradise
