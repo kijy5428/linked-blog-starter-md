@@ -2,5 +2,5 @@
 - [ ] angular markdown
 - [ ] read through M_'s repo
 - [ ] chat playground investigation
-- [ ] obsidian://open?vault=Obsidian%20Vault&file=Work%20Notes%2FSemantic%20Kernel%201%2FRoadmaps
-- [ ] 
+- [ ] [Roadmaps](../../Working/Semantic%20Kernel/Roadmaps.md)
+- [ ] [Roadmaps](../../Working/Semantic%20Kernel/Roadmaps.md)
