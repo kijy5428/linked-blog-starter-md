@@ -3,3 +3,8 @@
 - [ ] read through M_'s repo
 - [ ] chat playground investigation
 - [ ] [Semantic Kernel Roadmap](../../Working/Semantic%20Kernel/Roadmaps.md)
+- [ ] mermaid
+- [ ] docker
+- [ ] docker compose
+- [ ] kubernetes
+- [ ] polyglot
