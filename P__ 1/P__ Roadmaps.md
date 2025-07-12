@@ -5,6 +5,7 @@
 - [ ] [Semantic Kernel Roadmap](../../Working/Semantic%20Kernel/Roadmaps.md)
 - [ ] mermaid
 	- [ ] Flowchart
+	- [ ] how to use with LLM ??
 - [ ] Systeme architecture 
 - [ ] docker
 - [ ] docker compose
