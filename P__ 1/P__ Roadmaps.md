@@ -1,4 +1,6 @@
 - [ ] angular web chat prototype 
 - [ ] angular markdown
 - [ ] read through M_'s repo
-- [ ] chat
+- [ ] chat playground investigation
+- [ ] obsidian://open?vault=Obsidian%20Vault&file=Work%20Notes%2FSemantic%20Kernel%201%2FRoadmaps
+- [ ] 
