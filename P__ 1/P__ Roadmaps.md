@@ -2,6 +2,7 @@
 - [ ] angular markdown
 - [ ] read through M_'s repo
 - [ ] chat playground investigation
+- [ ] MCP server
 - [ ] [Semantic Kernel Roadmap](../../Working/Semantic%20Kernel/Roadmaps.md)
 - [ ] mermaid
 	- [ ] Flowchart
