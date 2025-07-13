@@ -1,1 +1,2 @@
-https://learn.microsoft.com/en-us/semantic-kernel/get-started/quick-start-guide?pivots=programming-language-csharp
+- [Supported AI models](https://learn.microsoft.com/en-us/semantic-kernel/get-started/quick-start-guide?pivots=programming-language-csharp)
+- [Supported AI Services](https://learn.microsoft.com/en-us/semantic-kernel/concepts/ai-services/)
