@@ -1,2 +1,3 @@
 - [ ] nuget.config
 - [ ] dependency injections
+- [ ] loggings
