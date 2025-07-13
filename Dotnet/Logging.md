@@ -1,0 +1,2 @@
+- Logging in .NET Core
+	- https://learn.microsoft.com/en-us/aspnet/core/fundamentals/logging/?view=aspnetcore-9.0
