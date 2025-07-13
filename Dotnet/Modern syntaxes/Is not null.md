@@ -1,0 +1,1 @@
+should have the same meaning of != null
