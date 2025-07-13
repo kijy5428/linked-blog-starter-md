@@ -1,0 +1,1 @@
+It is ideal for content-heavy environments like knowledge bases and customer support where users might ask questions or look for products using natural language. 
