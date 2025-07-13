@@ -1,0 +1,3 @@
+Classic search, also known as attribute-based or criteria-based search, relies on filtering and matching exact terms or values within a dataset. It is particularly effective for database queries, inventory searches, and any situation where filtering by specific attributes is necessary.
+
+For example, if a user wants to find all orders placed by a particular customer ID or retrieve products within a specific price range and category, classic search provides precise and reliable results. Classic search, however, is limited by its inability to understand context or variations in language.
