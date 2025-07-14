@@ -1,6 +1,7 @@
 ## Types
 - ChatHistory()
 	- AddUserMessage(content)
+	- .AddAssistantMessage(response);
 	- AddMessage(Role, content)
 ## Initialization
 
