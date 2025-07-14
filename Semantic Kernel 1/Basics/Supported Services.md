@@ -8,6 +8,9 @@
  IChatCompletionService chatCompletion = kernel.GetRequiredService<IChatCompletionService>();
  ```
 ```csharp
-ChatResponse response = await chatCompletion.GetChatMessageContentAsync( chatHistory, executionSettings: openAIPromptExecutionSettings, kernel: kernel)
+ChatResponse response = await chatCompletion.GetChatMessageContentAsync( 
+	chatHistory, 
+	executionSettings: openAIPromptExecutionSettings, 
+	kernel: kernel)
 ```
 
