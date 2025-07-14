@@ -1,0 +1,16 @@
+- [ ] angular web chat prototype 
+- [ ] angular markdown
+- [ ] read through M_'s repo
+- [ ] chat playground investigation
+- [ ] MCP server
+- [ ] [Semantic Kernel Roadmap](../../Working/Semantic%20Kernel/Roadmaps.md)
+- [ ] mermaid
+	- [ ] Flowchart
+	- [ ] how to use with LLM ??
+- [ ] Systeme architecture 
+- [ ] docker
+- [ ] docker compose
+- [ ] kubernetes
+- [x] polyglot
+- [ ] [Excalidraw](https://excalidraw.com/)
+- [ ] K_S_
