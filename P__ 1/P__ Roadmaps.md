@@ -13,3 +13,4 @@
 - [ ] kubernetes
 - [x] polyglot
 - [ ] [Excalidraw](https://excalidraw.com/)
+- [ ] K_S_
