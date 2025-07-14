@@ -1,2 +1,6 @@
-- builder.AddAzureOpenAIChatCompletion(deploymentName, 
-- endpoint, apiKey); builder.Plugins.AddFromType<WeatherPlugin>();
+```csharp
+builder.AddAzureOpenAIChatCompletion(deploymentName, 
+endpoint, apiKey); 
+
+builder.Plugins.AddFromType<WeatherPlugin>();
+```
