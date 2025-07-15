@@ -7,6 +7,7 @@
 - [ ] mermaid
 	- [ ] Flowchart
 	- [ ] how to use with LLM ??
+	- [ ] create flow chart from codes
 - [ ] Systeme architecture 
 - [ ] docker
 - [ ] docker compose
@@ -14,3 +15,6 @@
 - [x] polyglot
 - [ ] [Excalidraw](https://excalidraw.com/)
 - [ ] K_S_
+- [ ] podman exercises
+- [ ] CICD pipeline exercises
+- [ ] tekton
