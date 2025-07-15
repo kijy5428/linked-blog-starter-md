@@ -14,4 +14,5 @@ The [`Microsoft.AspNetCore.OpenApi`](https://www.nuget.org/packages/Microsoft.A
 - Support for "transformer" APIs that allow modifying the generated document.
 
 To use the `Microsoft.AspNetCore.OpenApi` package, add it as a PackageReference to a project file:
+- [Nuget Package](https://www.nuget.org/packages/Microsoft.AspNetCore.OpenApi/)
 - 
