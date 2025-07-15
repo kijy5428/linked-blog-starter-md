@@ -1,1 +1,0 @@
-https://blog.mjb.im/nested-daily-note-folders-in-obsidian
