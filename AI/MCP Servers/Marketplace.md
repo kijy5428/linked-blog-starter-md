@@ -1,0 +1,2 @@
+- https://mcpmarket.com/zh/search?q=atlassian
+- https://github.com/cline/mcp-marketplace

@@ -20,3 +20,7 @@
 - [ ] tekton
 - [ ] Microsoft Notebook
 - [ ] dotnet core run application with MCP servers
+- [ ] SQL Servers
+- [ ] Redis
+- [ ] Entity Framework
+- [ ] Realtime
