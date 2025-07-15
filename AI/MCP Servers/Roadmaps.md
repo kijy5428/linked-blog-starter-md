@@ -1,0 +1,2 @@
+- [ ] How to build a MCP Client
+- [ ] How to build a MCP server
