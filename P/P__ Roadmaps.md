@@ -19,3 +19,4 @@
 - [ ] CICD pipeline exercises
 - [ ] tekton
 - [ ] Microsoft Notebook
+- [ ] dotnet core run application with MCP servers
