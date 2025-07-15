@@ -18,3 +18,4 @@
 - [ ] podman exercises
 - [ ] CICD pipeline exercises
 - [ ] tekton
+- [ ] Microsoft Notebook
