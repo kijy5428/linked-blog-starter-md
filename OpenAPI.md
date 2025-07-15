@@ -5,7 +5,12 @@
 - [Youtube](https://www.youtube.com/watch?v=PenvYHJ9Koc)
 
 ## Microsoft Learn
-- https://learn.microsoft.com/en-us/aspnet/core/fundamentals/openapi/overview?view=aspnetcore-9.0
+- [Overview](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/openapi/overview?view=aspnetcore-9.0)
+- [Generate OpenAPI documentations](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/openapi/aspnetcore-openapi?view=aspnetcore-9.0&tabs=visual-studio%2Cvisual-studio-code)
+- 
+- `AddOpenApi` registers services required for OpenAPI document generation into the application's DI container.
+- `MapOpenApi` adds an endpoint into the application for viewing the OpenAPI document serialized into JSON. The OpenAPI endpoint is restricted to the development environment to minimize the risk of exposing sensitive information and reduce the vulnerabilities in production.
+
 
 ## API v. API operation v. API endpoint
 
