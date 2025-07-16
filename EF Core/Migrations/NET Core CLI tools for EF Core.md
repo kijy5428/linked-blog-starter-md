@@ -28,3 +28,17 @@ dotnet add package Microsoft.EntityFrameworkCore.Design
 ```
 
 https://learn.microsoft.com/en-us/ef/core/cli/dotnet
+
+---
+## Using the tools
+
+Create migration with the diff between the current model and the snapshot
+```csharp
+dotnet ef migrations add InitialCreate
+```
+
+
+Apply the changes to the database
+```csharp
+dotnet ef database update
+```
