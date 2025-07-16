@@ -23,4 +23,5 @@
 - [ ] SQL Servers
 - [ ] Redis
 - [ ] Entity Framework
+	- [ ] Designer https://www.youtube.com/watch?v=4HsPBn3vc9U
 - [ ] Realtime
