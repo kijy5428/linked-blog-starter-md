@@ -127,6 +127,76 @@ If you want to use different ports in development and production you can use the
 
 Alternatively, you can rely on a different JSON file, _launchSettings.json_.
 
+
+---
+
+## [launchSettings.json](https://andrewlock.net/8-ways-to-set-the-urls-for-an-aspnetcore-app/#launchsettings-json)
+
+In addition to the _appsettings.json_ file, most .NET project templates also include a _launchSettings.json_ file in the _Properties_ folder. This file doesn't add directly to your configuration; instead it contains various profiles for launching your ASP.NET Core application in development using `dotnet run`.
+
+A typical file contains one or more definitions for launching the profile directly from the command line and one definition for launching the profile using IIS Express. This file drives the Debug drop-down in Visual Studio:
+
+![The launchsettings.json drives the Visual Studio Debug view](https://andrewlock.net/content/images/2020/launchsettings.png)
+
+_launchSettings.json_ provides an easy way to set the application URLs via the `applicationUrl` property - you can see one under the `iisSettings` for IIS express, and one under each of the `http` and `https` profiles:
+
+```json
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:49412", // 👈 URL to use with IIS Express profile
+      "sslPort": 44381
+    }
+  },
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5005", // 👈 HTTP-only profile
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:7045;http://localhost:5005", // 👈 HTTP & HTTPS profile
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
+```
+
+You don't need to do anything special to use this file—`dotnet run` will pick it up automatically.
+
+> launchSettings.json also provides an easy way to set additional environment variables using the `environmentVariables`, as you can see from the file above.
+
+When you run your app from the command line with `dotnet run`, your app will use the `applicationUrl` properties in the "Project" command: `http://localhost:5005` in the `http` profile above. When you run the app using the "IISExpress" command, your app will use the `applicationUrl` from the `iisSettings.iisExpress` node: `http://localhost:49412`.
+
+This file is the easiest way to configure your environment when developing locally. In fact, you have to go out of your way to _not_ use the _launchSettings.json_:
+
+```bash
+dotnet run --no-launch-profile
+```
+
+This will skip over the _launchSettings.json_ file and fall back to configuration to determine the URLs instead.
+
+All of the approaches shown so far set the URLs for Kestrel indirectly, but you can also set them _directly_.
+
 ## References
 
 https://andrewlock.net/8-ways-to-set-the-urls-for-an-aspnetcore-app/
