@@ -48,6 +48,85 @@ As you can see above, you can also pass multiple addresses to listen on (using H
 
 ---
 
+## [Environment variables for the ports](https://andrewlock.net/8-ways-to-set-the-urls-for-an-aspnetcore-app/#environment-variables-for-the-ports)
+
+The `ASPNETCORE_URLS` and similar environment variables can be used to set the URLs using the formats shown at the start of this post, for example:
+
+- `ASPNETCORE_URLS="http://localhost:5001"`—listen to port 5001 on the loopback (`localhost` address).
+- `ASPNETCORE_URLS="http://192.168.8.31:5001"`—listen to port 5001 on the specified IP address.
+- `ASPNETCORE_URLS="http://*:5001"`—listen to port 5001 on any IP address
+
+One thing that's always bugged me a little is the name of this variable. It implies (to me) that you can use things like `http://example.com:5000` and your app will listen on that DNS name. That's not the case. The above URL is treated exactly the same as `http://*:5000`, i.e. it configures the app to listen to port `5000` on _any_ IP address.
+
+.NET 8 added new configuration keys to be more explicit about this. Instead of specifying "URLs" you specify `HTTP_PORTS` and `HTTPS_PORTS`, and these are used to bind any IP address. You can specify multiple ports using a semicolon separator. For example, if you set the following environment variables:
+
+- `ASPNETCORE_HTTP_PORTS=5001;5002`
+- `ASPNETCORE_HTTPS_PORTS=5003`
+
+These are expanded to the following URLs:
+
+- `http://*:5001`
+- `http://*:5002`
+- `https://*:5003`
+
+Just like other configuration keys, you can use `ASPNETCORE_`, `DOTNET_`, or "no prefix" to specify the values:
+
+- `HTTP_PORTS` (and `HTTPS_PORTS`)
+- `ASPNETCORE_HTTP_PORTS` (and `ASPNETCORE_HTTPS_PORTS`)
+- `DOTNET_HTTP_PORTS` (or `DOTNET_HTTPS_PORTS`)
+
+Note that if you specify one of these _and_ `ASPNETCORE_URLS` (for example) then the `ASPNETCORE_URLS` value takes precedence, and a warning is logged to the output:
+
+```bash
+warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
+      Overriding HTTP_PORTS '5002' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://*:5003'.
+```
+
+> In .NET 8, [the `ASPNETCORE_HTTP_PORTS` variable is set to `8080` by default in the .NET 8 docker images](https://andrewlock.net/exploring-the-dotnet-8-preview-updates-to-docker-images-in-dotnet-8/#asp-net-core-apps-now-use-port-8080-by-default) (whereas `ASPNETCORE_URLS` was set in previous version docker images). You can override this default value by setting `ASPNETCORE_HTTP_PORTS` _or_ `ASPNETCORE_URLS` (among other ways).
+
+Environment variables are just one way to add values to configuration; command line arguments are another.
+
+---
+
+## [_appsettings.json_](https://andrewlock.net/8-ways-to-set-the-urls-for-an-aspnetcore-app/#appsettings-json)
+
+_appsettings.json_, and the environment-specific _appsettings.Development.json_ files are included in virtually every modern .NET app template, and provide an easy way to add values to the ASP.NET Core configuration system.
+
+Hopefully it's no surprise that you can use these files to specify the URLs your app listens on using the same `urls`, `http_ports` and `https_ports` keys you've seen already. The following adds the `urls` key to the default template:
+
+```json
+{
+  "urls": "http://*:5003", // 👈 Specify the URL
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
+```
+
+This version adds the `http_ports` and `https_ports` keys:
+
+```json
+{
+  "http_ports": "5001;5002", // 👈 Expands to http://*:5001 and http://*:5002
+  "https_ports": "5003", // 👈 Expands to http2://*:5003
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
+```
+
+If you want to use different ports in development and production you can use the _appsettings.json_ file for production, and the _appsettings.Development.json_ for development. Or whatever pattern works for you.
+
+Alternatively, you can rely on a different JSON file, _launchSettings.json_.
+
 ## References
 
 https://andrewlock.net/8-ways-to-set-the-urls-for-an-aspnetcore-app/
