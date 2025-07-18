@@ -1,7 +1,7 @@
 
 Magic commands are simple commands that do something special, which could be telling time, connecting to data source, or sharing values between cells and kernels. A magic command can take parameters. You can recognize a magic command if the code begins with `#!`, followed by the command as shown:
 
-JavaScriptCopy
+JavaScript
 
 ```
 #!mycommand 
