@@ -11,6 +11,8 @@ kernel.ImportPluginFromObject(
 		"memory"
 	);
 
+kernel.CreateFunctionFromPrompt(skPrompt);
+
 ```
 
 
