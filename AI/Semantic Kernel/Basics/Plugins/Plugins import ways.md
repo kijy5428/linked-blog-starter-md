@@ -11,8 +11,14 @@ kernel.ImportPluginFromObject(
 		"memory"
 	);
 
-kernel.CreateFunctionFromPrompt(skPrompt);
+var myFunction = kernel.CreateFunctionFromPrompt(skPrompt);
+var answer = await myFunction.InvokeAsync(kernel,
 
+    "any news from NASA about Orion?");
+
+  
+
+Console.WriteLine(answer);
 ```
 
 
