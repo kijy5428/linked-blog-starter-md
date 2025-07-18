@@ -5,4 +5,4 @@ Typically, storage solutions offer a maximum capacity for each collection, and o
 
 In KM terms, these **collection** are called “indexes”.
 
-When storing information, when searching, and when asking questions, KM is always working within the boundaries of one index. Data in one index never leaks into other indexes.
+***When storing information, when searching, and when asking questions, KM is always working within the boundaries of one index. Data in one index never leaks into other indexes.***
