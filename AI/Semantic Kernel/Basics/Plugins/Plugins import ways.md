@@ -1,5 +1,16 @@
 ## Different ways of Import
-- kernel.Plugins.AddFromType<XYZ>("xyz")
-- kernel.Plugins.AddFromType<XYZ>("xyz")
----
+```csharp
+kernel.Plugins.AddFromType<XYZ>("xyz");
+
+kernel.ImportPluginFromObject(
+	new MemoryPlugin(
+		memoryConnector, 
+		defaultIndex: "LawSK", 
+		waitForIngestionToComplete: true
+		), 
+		"memory"
+	);
+
+```
+
 
