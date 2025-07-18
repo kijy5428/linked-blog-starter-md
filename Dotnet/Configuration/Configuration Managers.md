@@ -15,6 +15,24 @@ ASP.NET Core has [an advanced, extensible, configuration system](https://livebo
 ## Host Configuration
 
 ---
+
+### Environment variables set in generated launchSettings.json
+
+Environment variables set in `launchSettings.json` override those set in the system environment. For example, the ASP.NET Core web templates generate a `launchSettings.json` file that sets the endpoint configuration to:
+
+JSON
+
+```
+"applicationUrl": "https://localhost:5001;http://localhost:5000"
+```
+
+Configuring the `applicationUrl` sets the `ASPNETCORE_URLS` environment variable and overrides values set in the environment.
+
+[](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-9.0#escape-environment-variables-on-linux)
+
+### Escape en
+
+
 ## Refernces
 - [ ] need to read
 https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-9.0
