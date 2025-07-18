@@ -62,5 +62,6 @@ Configuring the `applicationUrl` sets the `ASPNETCORE_URLS` environment vari
 - [ ] need to read
 https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-9.0
 
-### environment varaibles
+
+### Hierarchical Environment variables
 We need to use __ instead of : when specifcifying environment variables to create hiearchy
