@@ -7,7 +7,16 @@ ASP.NET Core has [an advanced, extensible, configuration system](https://livebo
 - Command-line arguments
 
 ---
+
+## Applicatoin Configuration
+
+---
+
+## Host Configuration
+
+---
 ## Refernces
+- [ ] need to read
 https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-9.0
 
 ### environment varaibles
