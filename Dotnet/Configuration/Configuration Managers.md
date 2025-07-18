@@ -6,3 +6,9 @@ ASP.NET Core has [an advanced, extensible, configuration system](https://livebo
 - Environment variables
 - Command-line arguments
 
+---
+## Refernces
+https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-9.0
+
+### environment varaibles
+We need to use __ instead of : when specifcifying environment variables to create hiearchy
