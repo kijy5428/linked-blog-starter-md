@@ -9,6 +9,7 @@
 - JSON
 - Raw plain text
 - [..] more coming :-)
+- [Semantic Search](../../LLM/Semantic%20Search.md)
 
 ---
 
