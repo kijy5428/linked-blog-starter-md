@@ -1,5 +1,16 @@
+## Data format in support
+- MS Word documents
+- MS Excel spreadsheets
+- MS PowerPoint presentations
+- PDF documents
+- Web pages
+- JPG/PNG/TIFF Images with text via OCR
+- MarkDown
+- JSON
+- Raw plain text
+- [..] more coming :-)
 
-
+---
 
 ## DB Support
 - Azure AI Search
