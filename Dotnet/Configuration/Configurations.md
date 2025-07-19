@@ -46,4 +46,35 @@ Properties without corresponding configuration keys are ignored.
 
 --- 
 
-## Options patter
+#### Binding hierarchies
+
+Configuration values can contain hierarchical data. Hierarchical objects are represented with the use of the `:` delimiter in the configuration keys. To access a configuration value, use the `:` character to delimit a hierarchy. For example, consider the following configuration values:
+
+JSONCopy
+
+```
+{
+  "Parent": {
+    "FavoriteNumber": 7,
+    "Child": {
+      "Name": "Example",
+      "GrandChild": {
+        "Age": 3
+      }
+    }
+  }
+}
+```
+
+The following table represents example keys and their corresponding values for the preceding example JSON:
+
+|Key|Value|
+|---|---|
+|`"Parent:FavoriteNumber"`|`7`|
+|`"Parent:Child:Name"`|`"Example"`|
+|`"Parent:Child:GrandChild:Age"`|`3`|
+
+---
+
+
+## Options pattern
