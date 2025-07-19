@@ -30,6 +30,8 @@ The preceding code:
 
 While this example uses an in-memory configuration, there are many configuration providers available, exposing functionality for file-based, environment variables, command line arguments, and other configuration sources. For more information, see [Configuration providers in .NET](https://learn.microsoft.com/en-us/dotnet/core/extensions/configuration-providers).
 
+See also: [[ConfigurationBuilder]]
+
 
 ### Alternative hosting approach
 
