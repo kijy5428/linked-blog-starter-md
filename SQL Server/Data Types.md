@@ -1,13 +1,8 @@
-Here’s a concise summary for your notes:
 
----
 
-### SQL Server Schemas and Table Creation
+### SQL Server Table Creation
 
-- **Schemas** organize database objects (tables, views, etc.).
-    
-    - Default schemas: `sys` (system) and `dbo` (database owner).
-    - You can create custom schemas for organization (e.g., by department or use case).
+
 - **Creating Tables with T-SQL**:
     
     - Use `CREATE TABLE` (a DDL statement).
