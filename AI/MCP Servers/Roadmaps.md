@@ -1,2 +1,6 @@
 - [ ] How to build a MCP Client
 - [ ] How to build a MCP server
+- [ ] Inspect MCP Server
+- [ ] MCP server uses cases in company
+- [ ] Usages in community
+	- [ ] 

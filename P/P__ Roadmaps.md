@@ -4,6 +4,7 @@
 - [ ] chat playground investigation
 - [ ] MCP server
 - [ ] [Semantic Kernel Roadmap](../../Working/Semantic%20Kernel/Roadmaps.md)
+- [ ] [Roadmaps](../AI/MCP%20Servers/Roadmaps.md)
 - [ ] mermaid
 	- [ ] Flowchart
 	- [ ] how to use with LLM ??
