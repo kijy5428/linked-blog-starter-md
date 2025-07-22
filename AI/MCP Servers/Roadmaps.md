@@ -3,4 +3,4 @@
 - [ ] Inspect MCP Server
 - [ ] MCP server uses cases in company
 - [ ] Usages in community
-	- [ ] 
+- [ ] SSE ? StreamableHTTP

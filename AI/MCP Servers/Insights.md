@@ -19,20 +19,23 @@
 #### MCP hosts
 
 	- AI tools (IDE / Clause Desktop)
+	- which embed and interact between
+		- IDE
+		- LLM
 
 ### MCP clients
 
 	- Client program
 
 ### MCP servers
+
 Lightweight server
 3 different types
 - Tools
 - Resources
 - Prompts
 
-
-- Concepts
+### Concepts
 
 ### Transport
 
