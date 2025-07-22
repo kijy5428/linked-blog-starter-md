@@ -33,3 +33,13 @@ await host.RunAsync();
 //   KeyThree:Message = Thanks for checking this out!
 ```
 
+### Different ApplicationBuilder
+
+```csharp
+- CreateEmptyApplicationBuilder()
+
+/*When creating the `ApplicationHostBuilder`, ensure you use `CreateEmptyApplicationBuilder` instead of `CreateDefaultBuilder`. This ensures that the server does not write any additional messages to the console. This is only necessary for servers using STDIO transport. */
+- CreateApplicationBuilder()
+
+
+```
