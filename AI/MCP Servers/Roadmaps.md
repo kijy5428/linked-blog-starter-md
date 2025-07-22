@@ -2,5 +2,6 @@
 - [ ] How to build a MCP server
 - [ ] Inspect MCP Server
 - [ ] MCP server uses cases in company
-- [ ] Usages in community
+- [ ] Usages in community ???
+	- [ ] github copilot usages
 - [ ] SSE ? StreamableHTTP

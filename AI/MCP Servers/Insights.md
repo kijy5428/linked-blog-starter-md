@@ -6,16 +6,19 @@
 - Provide LLM with context
 - Provde a standardized way for AI models to connect different data sources / tools
 
+--- 
 ### Benefits
+
 ![](attachments/Pasted%20image%2020250715233637.png)
 
 - Community support of resources ready to be plugged in
 - Switch between LLM Models
 - Security best practices
 
+---
 ### Components
-![](attachments/Pasted%20image%2020250715233551.png)
 
+![](attachments/Pasted%20image%2020250715233551.png)
 #### MCP hosts
 
 	- AI tools (IDE / Clause Desktop)
@@ -23,29 +26,25 @@
 		- IDE
 		- LLM
 
-### MCP clients
-
+#### MCP clients
 	- Client program
-
-### MCP servers
+#### MCP servers
 
 Lightweight server
 3 different types
 - Tools
 - Resources
 - Prompts
-
-### Concepts
-
+--- 
 ### Transport
 
 - Stdio
 - http
 
+---
 ### Implementations
 
 - MCP server
-
 - Use C# SDK packages
 - Use dotnet run to create the MCP server
 
