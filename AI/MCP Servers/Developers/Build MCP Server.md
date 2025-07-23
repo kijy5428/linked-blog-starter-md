@@ -13,10 +13,7 @@ Writing to stdout will corrupt the JSON-RPC messages and break your server.**For
 
 ### 
 
-[​
-
-](https://modelcontextprotocol.io/quickstart/server#best-practices-4)
-
+https://modelcontextprotocol.io/quickstart/server#best-practices-4
 Best Practices
 
 1. Use a logging library that writes to stderr or files
