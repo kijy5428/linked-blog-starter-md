@@ -16,3 +16,6 @@ Upon deprecation, we will provide a clear migration guide from the Assistants AP
 https://platform.openai.com/docs/guides/responses-vs-chat-completions
 
 ![](attachments/Pasted%20image%2020250808005514.png)
+
+Seems ChatCompeletion not able to handle file input
+https://community.openai.com/t/send-files-to-completion-api/575385/7
