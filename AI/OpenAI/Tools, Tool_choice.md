@@ -5,3 +5,5 @@
 ## Tools Choice
 
 ![](attachments/Pasted%20image%2020250808000924.png)
+
+![](attachments/Pasted%20image%2020250808001454.png)tool choice => force to choose the function you chooose
