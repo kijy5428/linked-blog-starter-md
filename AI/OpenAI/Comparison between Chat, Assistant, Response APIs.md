@@ -14,3 +14,5 @@ Upon deprecation, we will provide a clear migration guide from the Assistants AP
 
 
 https://platform.openai.com/docs/guides/responses-vs-chat-completions
+
+![](attachments/Pasted%20image%2020250808005514.png)
