@@ -1,0 +1,1 @@
+https://learn.microsoft.com/en-us/semantic-kernel/concepts/enterprise-readiness/filters#auto-function-invocation-filter
