@@ -1,4 +1,5 @@
-![](attachments/Pasted%20image%2020250808000028.png)A maximum of 128 functions are supported
+https://platform.openai.com/docs/guides/function-calling
+A maximum of 128 functions are supported
 ![](attachments/Pasted%20image%2020250808000358.png)
 ![](attachments/Pasted%20image%2020250808000516.png)
 
@@ -11,3 +12,4 @@
 - select function automatically => auto
 - choose one function on purpose => provide a function defintion (like above )
 https://www.youtube.com/watch?v=__3df6k-9fI&list=PL7hc7ZLdMi6rokQ_nG0hTH_ngAjfJK4Jf&index=13
+
