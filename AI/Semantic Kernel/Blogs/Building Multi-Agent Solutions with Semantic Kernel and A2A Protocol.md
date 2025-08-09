@@ -33,12 +33,33 @@ Semantic Kernel acts as the **orchestration engine**, offering:
 
 ### 🧩 **Integration Architecture**
 
-The blog outlines a modular architecture using:
+**Key Components:  關鍵元件：**
 
+- **Host Agent**: Central routing system using Azure AI Agents for intelligent decision-making  
+    **主機代理** ：使用 Azure AI 代理進行智慧決策的中央路由系統
+- **A2A Protocol**: Standardized agent-to-agent communication  
+    **A2A 協定** ：標準化的代理到代理通信
+- **Semantic Kernel**: Advanced agent framework with MCP integration  
+    **語義內核** ：集成 MCP 的高級代理框架
+- **Remote Agents**: Specialized task executors with different communication protocols  
+    **遠端代理** ：具有不同通信協定的專用任務執行器
+
+**Benefits:  好處：**
+
+- Centralized conversation state management through Azure AI Foundry threads  
+    通過 Azure AI Foundry 線程進行集中式對話狀態管理
+- Intelligent task delegation based on agent capabilities and user intent  
+    基於代理能力和使用者意圖的智慧任務委派
+- Consistent user experience across diverse agent interactions  
+    跨不同座席交互的一致用戶體驗
+- Clear audit trail and comprehensive error handling  
+    清晰的審計跟蹤和全面的錯誤處理
+    
 - **Azure AI Foundry** for centralized routing.
 - **Remote agents** for specialized tasks.
 - **Hybrid communication protocols** (A2A, MCP, STDIO, SSE).
 - **Routing Agent** that dynamically delegates tasks using A2A discovery and Azure AI [[1]](https://devblogs.microsoft.com/semantic-kernel/guest-blog-building-multi-agent-solutions-with-semantic-kernel-and-a2a-protocol/).
+- ![](attachments/Pasted%20image%2020250809230130.png)
 
 ---
 
