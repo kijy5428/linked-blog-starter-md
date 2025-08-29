@@ -1,3 +1,4 @@
 - [ ] nuget.config
 - [ ] dependency injections
 - [ ] loggings
+- [ ] books readings
