@@ -1,0 +1,1 @@
+- An Open source project should always declare it's license in the repo (otherwise no one can make sure whether it can really be further revised / republished ...)
