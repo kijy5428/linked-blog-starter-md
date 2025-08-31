@@ -1,0 +1,1 @@
+https://www.servicenow.com/products/it-asset-management/what-is-eula.html
