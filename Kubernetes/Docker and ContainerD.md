@@ -4,4 +4,4 @@ Docker
 dockershim
 continerD
 runc
-nerdctl / ctr
+nerdctl / ctr / crictl
