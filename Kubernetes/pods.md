@@ -1,0 +1,3 @@
+- Smaller object to be created in k8s
+-  containers run inside pods
+- usually have only 1 container inside
