@@ -1,0 +1,5 @@
+- dev dependencies
+	- jest
+	- ts-jest
+	- ts-node
+	- @types/jest
