@@ -1,3 +1,7 @@
 - Smaller object to be created in k8s
 -  containers run inside pods
-- usually have only 1 container inside
+- usually have only 1 container inside, but not limited
+- sometimes we would need multiple containers within same pod, so the pod can work as a unit as an application
+	- ex: a helper which process data
+	- Kind of convenient since within the same pod, they share the same volume / network so can access each other through localhost, and the application lifecycle is automatically managed as well
+	- still a rare use case
