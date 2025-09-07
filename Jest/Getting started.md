@@ -1,5 +1,5 @@
 - dev dependencies
-	- jest
-	- ts-jest
-	- ts-node
-	- @types/jest
+	- jest // main test runner
+	- ts-jest // work with typescript
+	- ts-node // work with typescript
+	- @types/jest // for intellisese
