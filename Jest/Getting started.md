@@ -3,3 +3,4 @@
 	- ts-jest // work with typescript
 	- ts-node // work with typescript
 	- @types/jest // for intellisese
+- The configuration most of the itme is boilerplate
