@@ -30,9 +30,8 @@ The `DbContext` class in Entity Framework Core represents a **session with the d
 
 ---
 
-Would you like a visual diagram or code examples showing how to use `DbContext` effectively in a real EF Core project?
 
-  
-References
+
+
 
 [1] [The Entity Framework Core DbContext](https://www.learnentityframeworkcore.com/dbcontext)
