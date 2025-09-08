@@ -1,4 +1,4 @@
-- Using the fixed connection string in OnConfiguring method
+## Using the fixed connection string in OnConfiguring method
 - ```csharp
 using Microsoft.EntityFrameworkCore;
 
@@ -28,3 +28,26 @@ public class MyDbContext : DbContext
 
 }
   ```
+
+## Initialize through creating new DBContext
+- ```csharp
+  const string connection =
+     "Data Source=(localdb)\\mssqllocaldb;"+
+     "Database=EfCoreInActionDb.Chapter02;"+
+     "Integrated Security=True;";
+var optionsBuilder =
+    new DbContextOptionsBuilder
+           <EfCoreContext>();
+                                                
+optionsBuilder.UseSqlServer(connection);
+var options = optionsBuilder.Options;
+ 
+using (var context = new EfCoreContext(options))
+{
+ 
+    var bookCount = context.Books.Count();
+    //... etc.
+  ```
+
+## Dependency Injection
+
