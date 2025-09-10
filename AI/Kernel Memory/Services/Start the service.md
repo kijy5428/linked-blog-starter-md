@@ -1,1 +1,2 @@
-https://microsoft.github.io/kernel-memory/quickstart/start-service
+- Run locally as a service: https://microsoft.github.io/kernel-memory/quickstart/start-service
+- running in docker: https://hub.docker.com/r/kernelmemory/service
