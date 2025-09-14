@@ -81,3 +81,29 @@ Would you like this exported as a Markdown file or PDF for your documentation?
 ---
 
 Would you like this turned into a printable checklist or a markdown file for your documentation?
+
+Absolutely! Here's an enhanced and more **descriptive version** of the **Spy vs Mock comparison table**, with more precise language in the **Description** column:
+
+---
+
+## 🕵️‍♂️ **Spy vs Mock – Detailed Comparison**
+
+|**Aspect**|**Spy**|**Mock**|
+|---|---|---|
+|**Purpose**|To **observe and record** how a dependency behaves during the test without enforcing behavior.|To **simulate and control** a dependency’s behavior and **verify** that specific interactions occur.|
+|**Behavior**|Typically a **partial or real implementation** with added logic to track method calls and inputs.|A **fully simulated object** that mimics expected behavior and allows **predefined expectations**.|
+|**Verification**|You **inspect the spy after the test** to see what methods were called and with what arguments.|You **define expectations before the test**, and the mock will **fail the test** if they’re not met.|
+|**Usage Style**|**Passive**: Records what happened during the test for later inspection.|**Active**: Enforces specific behavior and validates interactions during the test.|
+|**Common Tools**|Can be manually implemented or supported by some mocking libraries.|Typically created using mocking frameworks like **Moq**, **NSubstitute**, or **FakeItEasy**.|
+|**Use Case**|Useful when you want to **track usage** (e.g., how many times a method was called).|Useful when you want to **ensure specific behavior** (e.g., a method must be called once).|
+
+---
+
+### 🔍 Quick Analogy
+
+- **Spy** = Security camera: _Records what happened._
+- **Mock** = Security guard: _Enforces rules and reports violations._
+
+---
+
+Would you like a C# code example showing both in action?
