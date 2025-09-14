@@ -19,13 +19,29 @@ A **test double** is a substitute for a real object used in testing.
 
 #### 🧩 **Types of Test Doubles**
 
-|Type|Description|Example|
+Here’s the updated **note-taking table** with **two more examples** added for each type of **test double**:
+
+---
+
+## 🧪 **Test Doubles – Extended Notes Table**
+
+|**Type**|**Description**|**Examples**|
 |---|---|---|
-|**Fake**|Functional implementation not suitable for production|In-memory SQLite DB|
-|**Dummy**|Placeholder object, never used|Passing unused factory to constructor|
-|**Stub**|Provides predefined data|InternalEmployee with preset values|
-|**Spy**|Captures indirect output/input|Subclass with added behavior (not used in this course)|
-|**Mock**|Simulates behavior and verifies interactions|Used to test expected calls without real object|
+|**Fake**|Functional implementation not suitable for production.|1. In-memory SQLite DB  <br>2. Fake Email Service (logs instead of sending)  <br>3. In-memory Cache|
+|**Dummy**|Placeholder object that is passed but never used.|1. Unused factory passed to constructor  <br>2. Empty config object  <br>3. Null logger instance|
+|**Stub**|Provides predefined responses to method calls.|1. Stubbed user repository returning fixed user  <br>2. Stubbed API client with hardcoded JSON  <br>3. Stubbed product service returning fixed price|
+|**Spy**|Records how it was used (calls, parameters, etc.).|1. Spy logger tracking error messages  <br>2. Spy payment processor tracking method calls  <br>3. Spy email sender recording recipients|
+|**Mock**|Simulates behavior and verifies interactions.|1. Mock repository verifying `Add()` call  <br>2. Mock notification service checking trigger  <br>3. Mock file system verifying file write|
+
+---
+
+### 🧠 **Tip for Use**
+
+- Combine different types of test doubles as needed.
+- Choose based on **test isolation goals**, not just convenience.
+- Use mocking frameworks to simplify creation of mocks, stubs, and dummies.
+
+Would you like this exported as a Markdown file or PDF for your documentation?
 
 > ✅ Most unit test projects use a **combination** of these.
 
