@@ -106,4 +106,18 @@ Absolutely! Here's an enhanced and more **descriptive version** of the **Spy vs 
 
 ---
 
-Would you like a C# code example showing both in action?
+  
+
+The terminology is not completely standardized. This is fine. What I mean by “not standardized” is that some people will use the words differently, and you will have to figure out what people mean. Here’s how I use them.
+
+Let’s say you have an interface WidgetFooer.
+
+- Dummy: Implements WidgetFooer with methods that that just panic or return zero.
+    
+- Stub: Implements WidgetFooer with dummy methods that just return values.
+    
+- Fake: Implements WidgetFooer with simple methods with not much logic.
+    
+- Spy: Implements WidgetFooer by forwarding method calls to a different WidgetFooer, and records which calls are made (spies on them).
+    
+- Mock: A stub or fake that records which calls are or verifies that the correct calls are made.
