@@ -1,4 +1,5 @@
 ### Nodes
+- Where kubernetes got installed
 - Physical / VM machines
 - where containers are run
 - ![](attachments/Pasted%20image%2020251106221456.png)
@@ -10,14 +11,16 @@
 ![](attachments/Pasted%20image%2020251106221548.png)
 ### Master
 - Orchestrating all the containers on the worker nodes
+	- ex: distributing the workloads to other nodes from failed nodes
 - having 
 	- kube-apiserver
 	- etcd
 	- controller
 	- scheduller
 ![](attachments/Pasted%20image%2020251106221637.png)
-![](attachments/Pasted%20image%2020251106222512.png)
+![](attachments/Pasted%20image%2020251106223253.png) 
 ### Worker nodes
+- where container get hosted
 - has 
 	- kubelet
 	- container runtime
@@ -34,3 +37,4 @@
 - Scheduler
 - etcd
 	- key value store
+- ![](attachments/Pasted%20image%2020251106222512.png)
