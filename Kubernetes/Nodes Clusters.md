@@ -16,7 +16,7 @@
 	- controller
 	- scheduller
 ![](attachments/Pasted%20image%2020251106221637.png)
-
+![](attachments/Pasted%20image%2020251106222512.png)
 ### Worker nodes
 - has 
 	- kubelet
