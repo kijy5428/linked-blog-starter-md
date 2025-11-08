@@ -32,7 +32,7 @@
 - kubelet
 - controller
 - Container runtime
-	- 
+	- podman
 	- ex: docker
 - Scheduler
 - etcd
