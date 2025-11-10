@@ -1,3 +1,7 @@
+### File format
+- Start with three dash
+	- ---
+	- https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started
 ### Root/top level properties (Required)
 - apiVersion
 	- v1
