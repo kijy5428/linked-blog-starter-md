@@ -4,4 +4,4 @@
 - Mostly used in browser SSO scenarios
 ## OAuth
 - Authorization
-- 
+- Be used as a psuedo authentication protocol
