@@ -7,3 +7,5 @@
 - Be used as a psuedo authentication protocol
 ## OpenID Connect
 ![](attachments/Pasted%20image%2020251113225253.png)
+
+
