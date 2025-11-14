@@ -11,3 +11,4 @@
 ## Application types
 - Single tenant vs multi tenant
 - Native (can keep credential secretly)vs  web
+- we may need to configure redirect url
