@@ -6,3 +6,5 @@
 - The moment you create an app reisgristration and grant permission => service principal got created 
 - ServicePrincipal => can has not related apps
 - Apps => would always binds to service principal
+	- ex: Creation of the app sahilapp => create a managed identity (service principal with the same name)
+	- ![](attachments/Pasted%20image%2020251114220726.png)
