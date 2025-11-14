@@ -8,3 +8,6 @@
 - Apps => would always binds to service principal
 	- ex: Creation of the app sahilapp => create a managed identity (service principal with the same name)
 	- ![](attachments/Pasted%20image%2020251114220726.png)
+## Application types
+- Single tenant vs multi tenant
+- Native (can keep credential secretly)vs  web
