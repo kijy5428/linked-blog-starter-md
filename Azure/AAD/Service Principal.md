@@ -3,3 +3,6 @@
 - Service principal can also be added as group member
 - We can also login as service principal
 	- ![](attachments/Pasted%20image%2020251114215602.png)
+- The moment you create an app reisgristration and grant permission => service principal got created 
+- ServicePrincipal => can has not related apps
+- Apps => would always binds to service principal
