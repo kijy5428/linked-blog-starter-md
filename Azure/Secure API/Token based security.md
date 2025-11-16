@@ -2,3 +2,6 @@
 - Home-grown token (not ideal)
 	- Difficult to maintain below items
 	- ![](attachments/Pasted%20image%2020251116095900.png)
+- OIDC
+	- OpenID Connect
+	- this token is used to sign in users
