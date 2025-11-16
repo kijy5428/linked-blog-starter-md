@@ -5,3 +5,4 @@
 - OIDC
 	- OpenID Connect
 	- this token is used to sign in users
+- OAuth2
