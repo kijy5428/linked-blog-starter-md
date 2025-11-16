@@ -1,0 +1,2 @@
+- Send tokens instead of sending password within request
+- Home-grown token (not ideal)
