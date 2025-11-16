@@ -1,2 +1,4 @@
 - Send tokens instead of sending password within request
 - Home-grown token (not ideal)
+	- Difficult to maintain below items
+	- ![](attachments/Pasted%20image%2020251116095900.png)
