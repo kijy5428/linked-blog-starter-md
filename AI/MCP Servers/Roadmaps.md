@@ -5,3 +5,7 @@
 - [ ] Usages in community ???
 	- [ ] github copilot usages
 - [ ] SSE ? StreamableHTTP
+- [ ] JsonRPC ??
+- [ ] Guidelines for creating MCP servers ?
+- [ ] How to best handle MCP cases in Micron ??
+- [ ] 
