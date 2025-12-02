@@ -1,2 +1,6 @@
-Replicaiton Controller (Retired)
+Monitor and make sure the pods numbers run are matched with the yaml file
+## Replicaiton Controller (Retired)
 ![](attachments/Pasted%20image%2020251202210317.png)
+
+## Replicasets
+![](attachments/Pasted%20image%2020251202211317.png)
