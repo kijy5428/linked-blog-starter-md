@@ -31,6 +31,7 @@
 	- Act as the front end for interaction with Kubernetes Cluster
 - kubelet
 - controller
+	- Replication controller
 - Container runtime
 	- podman
 	- ex: docker
