@@ -1,0 +1,1 @@
+A CLI based chatbot to chat with document MCP server
