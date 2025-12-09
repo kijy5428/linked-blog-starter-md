@@ -1,0 +1,2 @@
+- Why MCP server
+- MCP server docs read through
