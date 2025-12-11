@@ -1,2 +1,7 @@
 - Why MCP server
 - MCP server docs read through
+- what are three different types of protocol
+	- SSE
+	- StreamableHttp
+	- 
+- 
