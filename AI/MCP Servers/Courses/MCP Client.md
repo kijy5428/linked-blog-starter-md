@@ -4,3 +4,5 @@ Resources
 ![](attachments/Pasted%20image%2020251211230449.png)
 ![](attachments/Pasted%20image%2020251211232537.png)
 ![](attachments/Pasted%20image%2020251211232507.png)
+
+![](attachments/Pasted%20image%2020251211234529.png)
