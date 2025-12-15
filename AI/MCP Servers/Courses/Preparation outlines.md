@@ -4,5 +4,6 @@
 	- SSE
 	- StreamableHttp
 - What is jsonrpc
-	- 
+- initialized call twice ??
+- stdin / stdout
 - 
