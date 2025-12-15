@@ -3,5 +3,6 @@
 - what are three different types of protocol
 	- SSE
 	- StreamableHttp
+- What is jsonrpc
 	- 
 - 
